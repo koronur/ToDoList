@@ -97,3 +97,26 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
 }
+
+/* media query small screen */
+@media (max-width: 477px) {
+  .container {
+    width: 90%;
+  }
+  .todo-app {
+    max-width: 320px;
+    padding: 40px 20px 60px 20px;
+  }
+  .row {
+    width: 90%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  ul li::before {
+    top: 10px;
+  }
+}
